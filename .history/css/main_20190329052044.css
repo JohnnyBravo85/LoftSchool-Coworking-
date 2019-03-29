@@ -175,7 +175,8 @@ h1 {
 
 .profit-list {
   display: inline-block;
-  margin: 3.538rem 4.25rem 0 1.2rem;
+  margin: 3.538rem 4.25rem 0 1.2rem
+  border: 1px solid black;
 }
 
 .profit-list:last-child {
@@ -225,7 +226,6 @@ h1 {
   font-size: 1em;
   text-align: left;
   line-height: 2;
-  margin-left: 30px;
 }
 
 .services-list__item::before {
@@ -244,15 +244,14 @@ h2 {
   font-size: 3.063em;
   font-weight: bold;
   color: #221f1f;
-  margin-bottom: 4.1rem;
 }
 
 .news {
-  margin: 3.99rem  1.313rem 2.95rem 12.125rem;
+  padding: 3.99rem  1.313rem 2.95rem 12.125rem;
 }
 
-.news-wrapper{
-  margin-bottom: 1.1rem;
+.news-wrapper {
+  padding: 4.1rem 0 0 0;
 }
 
 .news-img, .news-list {
@@ -264,8 +263,8 @@ h2 {
 }
 
 .news-list {
-  margin-left: 1.25rem;
   width: 74%;
+  padding: 0 0 0 1.25rem;
   font-family: 'Roboto';
   vertical-align: top;
   color: #221f1f;
@@ -320,11 +319,6 @@ h2 {
   font-size: .875em;
   font-weight: bold;
   list-style-type: none;
-}
-
-.page-list li:first-child {
-  color: #656464;
-  font-weight: normal;
 }
 
 .page-list__link {
@@ -409,3 +403,21 @@ h2 {
 .social-icons__link:hover {
   background-color: #ec1e79;
 }
+
+/* PERFECT PIXEl DIRTY CODE */
+.perfect-pixel-wrap {
+  padding: 1.2rem 0 0 0
+}
+
+.perfect-pixel-list {
+  padding: 0.9rem 0 0 1.25rem;
+}
+
+.perfect-pixel-wrap-patch {
+  padding: 1.1rem 0 0 0;
+}
+
+.perfect-pixel-list-patch {
+  padding: 0.65rem 0 0 1.25rem;
+}
+/* Внес изменения для пуша */

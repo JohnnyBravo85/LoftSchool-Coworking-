@@ -323,8 +323,8 @@ h2 {
 }
 
 .page-list li:first-child {
-  color: #656464;
-  font-weight: normal;
+  font-size: 40px;
+  
 }
 
 .page-list__link {

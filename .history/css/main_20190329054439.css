@@ -322,11 +322,6 @@ h2 {
   list-style-type: none;
 }
 
-.page-list li:first-child {
-  color: #656464;
-  font-weight: normal;
-}
-
 .page-list__link {
   display: block;
   padding: 5px 7px;
@@ -409,3 +404,13 @@ h2 {
 .social-icons__link:hover {
   background-color: #ec1e79;
 }
+
+/* PERFECT PIXEl DIRTY CODE */
+.perfect-pixel-wrap {
+  padding: 1.2rem 0 0 0
+}
+
+.perfect-pixel-wrap-patch {
+  padding: 1.1rem 0 0 0;
+}
+/* Внес изменения для пуша */

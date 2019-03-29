@@ -322,11 +322,6 @@ h2 {
   list-style-type: none;
 }
 
-.page-list li:first-child {
-  color: #656464;
-  font-weight: normal;
-}
-
 .page-list__link {
   display: block;
   padding: 5px 7px;

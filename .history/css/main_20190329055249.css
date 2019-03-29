@@ -322,9 +322,8 @@ h2 {
   list-style-type: none;
 }
 
-.page-list li:first-child {
+.page-list__itemt:first-child {
   color: #656464;
-  font-weight: normal;
 }
 
 .page-list__link {

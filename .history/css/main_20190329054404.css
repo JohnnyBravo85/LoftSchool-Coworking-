@@ -251,9 +251,7 @@ h2 {
   margin: 3.99rem  1.313rem 2.95rem 12.125rem;
 }
 
-.news-wrapper{
-  margin-bottom: 1.1rem;
-}
+.news-w
 
 .news-img, .news-list {
   display: inline-block;
@@ -320,11 +318,6 @@ h2 {
   font-size: .875em;
   font-weight: bold;
   list-style-type: none;
-}
-
-.page-list li:first-child {
-  color: #656464;
-  font-weight: normal;
 }
 
 .page-list__link {
@@ -409,3 +402,13 @@ h2 {
 .social-icons__link:hover {
   background-color: #ec1e79;
 }
+
+/* PERFECT PIXEl DIRTY CODE */
+.perfect-pixel-wrap {
+  padding: 1.2rem 0 0 0
+}
+
+.perfect-pixel-wrap-patch {
+  padding: 1.1rem 0 0 0;
+}
+/* Внес изменения для пуша */
