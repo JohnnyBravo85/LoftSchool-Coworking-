@@ -208,12 +208,22 @@ h1 {
   margin-bottom: 1.875rem;
 }
 
+/* .before, .pic-inner__pic {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.before {
+  height: 100%;
+} */
+
+
 .pic-inner__pic {
   display: inline-block;
   vertical-align: middle;
 }
 
-.before-vertical::before {
+.pic-inner::before {
   content: "";
   display: inline-block;
   vertical-align: middle;

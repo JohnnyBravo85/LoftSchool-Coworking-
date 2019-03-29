@@ -213,7 +213,7 @@ h1 {
   vertical-align: middle;
 }
 
-.before-vertical::before {
+.pic-inner::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
