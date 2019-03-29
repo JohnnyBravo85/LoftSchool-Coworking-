@@ -20,14 +20,11 @@ h1 {
 }
 
 .wrapper {
-  width: 100%;
+  width: 1100px;
   margin: 0 auto;
 }
 
-.content, .news, .page {
-  width: 1100px;
-  box-sizing: border-box;
-}
+.header, .main-img, .main-content
 
 .header, .page-list {
   padding: 0 1.313rem 0 1.188rem;
@@ -101,12 +98,6 @@ h1 {
  text-decoration: underline;
 }
 
-/* MAIN-IMG */
-
-.main-img__pic {
-  width: 100%;
-}
-
 /* CONTENT */
 
 .content {
@@ -115,15 +106,12 @@ h1 {
 
 .nav {
   vertical-align: top;
-  /* width: 17.636%; */
-  width: 115px;
+  width: 17.636%;
   padding: .85rem 0 0 .9rem;
-  margin-right: 75px;
 }
 
 .main-content {
-  /* width: 80%; */
-  width: 880px;
+  width: 82%.364%;
 }
 
 .nav, .main-content {

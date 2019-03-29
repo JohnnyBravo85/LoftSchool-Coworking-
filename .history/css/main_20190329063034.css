@@ -116,14 +116,12 @@ h1 {
 .nav {
   vertical-align: top;
   /* width: 17.636%; */
-  width: 115px;
+  /* width: 115px; */
   padding: .85rem 0 0 .9rem;
-  margin-right: 75px;
 }
 
 .main-content {
-  /* width: 80%; */
-  width: 880px;
+  width: 80%;
 }
 
 .nav, .main-content {
