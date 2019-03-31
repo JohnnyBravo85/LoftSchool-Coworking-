@@ -129,9 +129,13 @@ img {
   color: #000;
 }
 
-.nav-list__link:hover {
+/* .nav-list__link:hover {
+  color: #ec1e79;
+} */
+.nav-list__item:hover .nav-list__link:hover {
   color: #ec1e79;
 }
+
 
 .nav-list__link--main::before {
   content: "";

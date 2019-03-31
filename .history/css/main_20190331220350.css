@@ -108,8 +108,11 @@ img {
   vertical-align: top;
 }
 
+.nav-list {
+  padding-left: 3rem;
+}
+
 .nav-list__item {
-  padding-left: 2rem;
   display: block;
   margin-bottom: 1.65rem;
 }

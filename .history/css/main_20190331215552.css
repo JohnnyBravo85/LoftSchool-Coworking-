@@ -109,8 +109,6 @@ img {
 }
 
 .nav-list__item {
-  padding-left: 2rem;
-  display: block;
   margin-bottom: 1.65rem;
 }
 
@@ -121,9 +119,8 @@ img {
 
 .nav-list__link {
   position: relative;
-  display: block;
   font-size: 0.75em;
-  letter-spacing: 1.2px;
+  /* letter-spacing: 1.2px; */
   font-weight: bold;
   text-transform: uppercase;
   color: #000;
