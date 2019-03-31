@@ -88,7 +88,6 @@ img {
   line-height: 2;
   opacity: .7;
   text-decoration: underline;
-  cursor: pointer;
   color: #b12167;
 }
 
@@ -274,7 +273,6 @@ h1 {
 /* CONTENT-NEWS */
 
 .news {
-  margin-left:13.438rem;
   margin-bottom: 2.95rem;
 }
 
@@ -332,6 +330,7 @@ h2 {
 /* PAGINATION */
 
 .pagination {
+  margin-bottom: 4.3rem;
   text-align: center;
   font-family: 'Roboto';
   color: #656464;
@@ -374,7 +373,6 @@ h2 {
 
 .footer {
   position: relative;
-  margin-top: 4.3rem;
   height: 77px;
   padding-top: 0.875rem;
   background: #27273e;
