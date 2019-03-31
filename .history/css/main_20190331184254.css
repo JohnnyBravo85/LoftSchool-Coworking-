@@ -215,9 +215,10 @@ h1 {
   margin-bottom: 4rem;
 }
 
-.profit-list {
+.main-content-list-inner {
   width: 226px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .profit-list__pic-inner {
@@ -267,13 +268,13 @@ h1 {
 
 .profit-list__item--padding::before {
   content:"•";
-  margin-right:  1rem;
+  margin: 0 1rem 0 0;
   color: #c36;
 }
 
 /* CONTENT-NEWS */
 
-.news {
+.content-news {
   margin-bottom: 2.95rem;
 }
 
@@ -288,14 +289,17 @@ h2 {
   margin-bottom: 1.1rem;
 }
 
-.news-column__img, .news-column__list {
+.news-column__img, .news-column__list-wrapper  {
   display: inline-block;
 }
 
 .news-column__img {
-  margin-right: 1.25rem;
   font-size: 0;
   vertical-align: top;
+}
+
+.news-column__list-wrapper {
+  width: 685px;
 }
 
 .news-column__pic {
@@ -305,7 +309,6 @@ h2 {
 }
 
 .news-column__list {
-  width: 685px;
   font-family: 'Roboto';
   color: #221f1f;
 }
@@ -331,9 +334,9 @@ h2 {
 /* PAGINATION */
 
 .pagination {
-  margin-bottom: 4.3rem;
   text-align: center;
   font-family: 'Roboto';
+  margin-bottom: 4.3rem;
   color: #656464;
 }
 
@@ -399,9 +402,9 @@ h2 {
 
 .footer-logo {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 24%;
+  left: 48%;
+ /* margin: 0 0 0 13.5rem; */
 }
 
 .contacts {

@@ -273,9 +273,9 @@ h1 {
 
 /* CONTENT-NEWS */
 
-.news {
+/* .content-news {
   margin-bottom: 2.95rem;
-}
+} */
 
 h2 {
   font-size: 3.063em;
@@ -399,9 +399,8 @@ h2 {
 
 .footer-logo {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 24%;
+  left: 48%;
 }
 
 .contacts {
