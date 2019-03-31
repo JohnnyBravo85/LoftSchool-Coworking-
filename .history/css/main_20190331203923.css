@@ -103,7 +103,7 @@ img {
 
 .nav {
   margin-right: 4.688rem;
-  padding-left: 2rem;
+  padding-left: 1.25rem;
   display: inline-block;
   vertical-align: top;
 }
@@ -139,7 +139,7 @@ img {
   display: block;
   width: 20px;
   height: 18px;
-  background: url(./img/main-ic-original.png) center center no-repeat;
+  background: url(/img/main-ic-original.png) center center no-repeat;
 }
 
 .nav-list__link--feed::before {
@@ -150,7 +150,7 @@ img {
   display: block;
   width: 20px;
   height: 18px;
-  background: url(./img/feed-ic-original.png) center center no-repeat;
+  background: url(/img/feed-ic-original.png) center center no-repeat;
 }
 
 .nav-list__link--wallet::before {
@@ -161,7 +161,7 @@ img {
   display: block;
   width: 20px;
   height: 18px;
-  background: url(./img/wallet-ic-original.png) center center no-repeat;
+  background: url(/img/wallet-ic-original.png) center center no-repeat;
 }
 
 .nav-list__item:hover .nav-list__link--main::after {
@@ -172,7 +172,7 @@ img {
   display: block;
   width: 20px;
   height: 18px;
-  background: url(./img/main-ic.png.jpg) center center no-repeat;
+  background: url(/img/main-ic.png.jpg) center center no-repeat;
 }
 
 .nav-list__item:hover .nav-list__link--feed::after {
@@ -183,7 +183,7 @@ img {
   display: block;
   width: 20px;
   height: 18px;
-  background: url(./img/feed-ic.jpg) center center no-repeat;
+  background: url(/img/feed-ic.jpg) center center no-repeat;
 }
 
 .nav-list__item:hover .nav-list__link--wallet::after {
@@ -194,7 +194,7 @@ img {
   display: block;
   width: 20px;
   height: 18px;
-  background: url(./img/wallet-ic.jpg) center center no-repeat;
+  background: url(/img/wallet-ic.jpg) center center no-repeat;
 }
 
 /* MAIN-CONTENT */

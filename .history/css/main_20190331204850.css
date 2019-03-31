@@ -139,7 +139,7 @@ img {
   display: block;
   width: 20px;
   height: 18px;
-  background: url(./img/main-ic-original.png) center center no-repeat;
+  background: url(/img/main-ic-original.png) center center no-repeat;
 }
 
 .nav-list__link--feed::before {
