@@ -1,0 +1,421 @@
+/*MAIN CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'GothamPro', 'Arial', sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.063em;
+  font-weight: bold;
+  color: #221f1f;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header, .page-list {
+  padding: 0 1.313rem 0 1.188rem;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* HEADER */
+
+.header {
+  margin: 0 auto;
+  background-color: #27273e;
+}
+
+.information {
+  height: 76px;
+  padding: .813rem 0;
+  box-sizing: border-box;
+}
+
+.information__logo, .information__contacts {
+  display: inline-block;
+  max-width: 50%;
+}
+
+.information__logo {
+  float: left;
+}
+
+.information__contacts {
+  vertical-align: top;
+  float: right;
+}
+
+.information__tel, .information__schedule {
+  
+}
+
+.information__tel {
+  
+}
+
+.information__link-tel {
+  text-align: right;
+  display: block;
+  font-size: 1.533em;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.schedule-red {
+  display: block;
+  padding: .175rem 0 0 0;
+  font-size: .875em;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-weight: bold;
+  color: #b12167;
+  text-align: right;
+}
+
+.information__link:hover {
+ text-decoration: underline;
+}
+
+/* CONTENT */
+
+.content {
+  padding: 3.22rem 0 0 0.412rem;
+}
+
+.nav {
+  vertical-align: top;
+  width: 17.636%;
+  padding: .85rem 0 0 .9rem;
+}
+
+.main-content {
+  width: 82%.364%;
+}
+
+.nav, .main-content {
+  display: inline-block;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav__item {
+  margin: 0 0 1.65rem 0;
+}
+
+.nav__item:last-child {
+  margin: 0;
+}
+
+.nav__link {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav__title {
+  display: inline-block;
+  padding: 0 0 0 1rem;
+}
+
+.nav__triangle-hov, .nav__star-hov, .nav__wallet-hov  {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+/* .nav__triangle-hov:hover, .nav__star-hov:hover, .nav__wallet-hov:hover {
+  opacity: 1;
+} */
+
+/* .nav__link:hover .nav__triangle-hov, 
+.nav__link:hover .nav__star-hov, 
+.nav__link:hover .nav__wallet-hov { opacity: 1; } */
+
+.nav__link:hover .nav__img:last-child img { opacity: 1; }
+
+.nav__link:hover{
+  color: #ec1e79;
+}
+
+.main-content {
+  margin: 0 auto;
+}
+
+.pic-inner, .list-title, .services-list {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profit-list {
+  display: inline-block;
+  padding: 3.538rem 0 0 1.2rem;
+  margin: 0 4.25rem 0 0;
+}
+
+.profit-list:last-child {
+  margin: 0 0 0 0.5rem;
+}
+
+.pic-inner {
+  background-color: #27273e;
+}
+
+.pic-inner {
+  width: 68px;
+  height: 68px;
+  font-size: 0;
+  border-radius: 50%;
+}
+
+.before, .pic-inner__pic {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.before {
+  height: 100%;
+  
+}
+
+.list-title {
+  padding: 1.875rem 0 0 0;
+  font-size: 1.14em;
+  font-weight: bold;
+  color: #212121;
+}
+
+.services-list {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem 0 0 0;
+  font-size: 1.125em;
+  line-height: 1.5;
+  color: #221f1f;
+}
+
+.services-list__item {
+  font-size: 1em;
+  text-align: left;
+  line-height: 2;
+}
+
+.services-list__item::before {
+  content:"•";
+  margin: 0 1rem 0 0;
+  color: #c36;
+}
+
+.services-list__decor {
+  display: block;
+}
+
+/* NEWS BLOCK */
+
+h2 {
+  font-size: 3.063em;
+  font-weight: bold;
+  color: #221f1f;
+}
+
+.news {
+  padding: 3.99rem  1.313rem 2.95rem 12.125rem;
+}
+
+.news-wrapper {
+  padding: 4.1rem 0 0 0;
+}
+
+.news-img, .news-list {
+  display: inline-block;
+}
+
+.news-img {
+  width: 17.8%;
+}
+
+.news-list {
+  width: 74%;
+  padding: 0 0 0 1.25rem;
+  font-family: 'Roboto';
+  vertical-align: top;
+  color: #221f1f;
+}
+
+.news-img__pic {
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.news-list__time {
+  font-size: .875em;
+  font-weight: 300;
+  color: #656464;
+}
+
+.news-list__title {
+  font-size: 1.05em;
+  line-height: 1.9;
+  font-weight: bold;
+}
+
+.news-list__text  {
+  font-size: 1.125em;
+  line-height: 2;
+  font-weight: 300;
+}
+
+/* PAGE NAV */
+
+.page {
+  text-align: center;
+  font-family: 'Roboto';
+  padding: 0 0 4.3rem 0;
+}
+
+.page__info, .page-list-wrapper, .page-list__item {
+  display: inline-block;
+}
+
+.page__info {
+  font-size: .875em;
+  font-weight: 300;
+  padding: 0 0 0 14rem;
+  color: #656464;
+}
+
+.page-list {
+  font-size: .875em;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.page-list__link {
+  display: block;
+  padding: 5px 7px;
+  color: #221f1f;
+  text-decoration: none;
+}
+
+.page-list__link:hover {
+  background: #27273e;
+  color: #fff;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 1rem  1.313rem 1rem 1.188rem;
+  background: #27273e;
+  position: relative;
+}
+
+.autor, .footer-logo, .contacts, .social-icons__list {
+  display: inline-block;
+}
+
+.autor {
+  float: left;
+  width: 25%;
+  font-size: .875em;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.autor__decor {
+  font-weight: bold;
+}
+
+.footer-logo {
+ margin: 0 0 0 13.5rem;
+}
+
+.contacts {
+  vertical-align: top;
+  float: right;
+}
+
+.contacts__title {
+  font-size: .875em;
+  margin:  0 0 .625rem 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.social-icons__list {
+  position: relative;
+  margin: 0 0.1rem 0 0;
+}
+
+.social-icons__list:last-child {
+  margin: 0;
+}
+
+.social-icons__pic {
+  width: 10px;
+  height: 9.4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-icons__link {
+  display: inline-block;
+  font-size: 0px;
+  background-color: #d4d4d8;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.social-icons__link:hover {
+  background-color: #ec1e79;
+}
+
+/* PERFECT PIXEl DIRTY CODE */
+.perfect-pixel-wrap {
+  padding: 1.2rem 0 0 0
+}
+
+.perfect-pixel-list {
+  padding: 0.9rem 0 0 1.25rem;
+}
+
+.perfect-pixel-wrap-patch {
+  padding: 1.1rem 0 0 0;
+}
+
+.perfect-pixel-list-patch {
+  padding: 0.65rem 0 0 1.25rem;
+}
+/* Внес изменения для пуша */
