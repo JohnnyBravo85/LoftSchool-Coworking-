@@ -11,9 +11,7 @@ body, ul, li, p, h1, h2, h3 {
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-}
+html, body, .wrapper, .content
 
 ul {
   list-style: none;
@@ -111,7 +109,6 @@ img {
   padding-left: 2rem;
   display: inline-block;
   vertical-align: top;
-  height: 100%;;
 }
 
 .nav-list__item {

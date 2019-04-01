@@ -6,13 +6,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body, ul, li, p, h1, h2, h3 {
+body, ul, li, p, h1, h2 {
   margin: 0;
   padding: 0;
-}
-
-html, body {
-  height: 100%;
 }
 
 ul {
@@ -109,9 +105,7 @@ img {
 .nav {
   margin-right: 4.688rem;
   padding-left: 2rem;
-  display: inline-block;
   vertical-align: top;
-  height: 100%;;
 }
 
 .nav-list__item {
@@ -283,6 +277,7 @@ img {
 /* CONTENT-NEWS */
 
 .news {
+  margin-bottom: 2.95rem;
 }
 
 .news__title {

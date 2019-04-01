@@ -6,13 +6,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body, ul, li, p, h1, h2, h3 {
+body, ul, li, p, h1, h2 {
   margin: 0;
   padding: 0;
-}
-
-html, body {
-  height: 100%;
 }
 
 ul {
@@ -111,7 +107,6 @@ img {
   padding-left: 2rem;
   display: inline-block;
   vertical-align: top;
-  height: 100%;;
 }
 
 .nav-list__item {
@@ -206,18 +201,15 @@ img {
   background: url(../img/wallet-ic.jpg) center center no-repeat;
 }
 
-/* PROMO */
+/* MAIN-CONTENT */
 
 .main-content {
   display: inline-block;
-}
-
-.promo {
   margin-bottom: 3.99rem;
 }
 
 
-.promo__title {
+h1 {
   font-size: 3.063em;
   font-weight: bold;
   color: #221f1f;
@@ -283,9 +275,11 @@ img {
 /* CONTENT-NEWS */
 
 .news {
+  margin-left:13.438rem;
+  margin-bottom: 2.95rem;
 }
 
-.news__title {
+h2 {
   font-size: 3.063em;
   font-weight: bold;
   color: #221f1f;
@@ -440,7 +434,7 @@ img {
   height: 25px;
   text-align: center;
   border-radius: 50%;
-  transition: .3s;
+  transition: .3s
 }
 
 .social-icons__pic {
