@@ -1,0 +1,13 @@
+.form {
+  height: 300px;
+  background: skyblue;
+  display: flex;
+  font-size: 10em;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+}
+
+.form {
+  margin-bottom: 3.125rem;
+}

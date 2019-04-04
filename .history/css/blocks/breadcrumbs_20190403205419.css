@@ -1,0 +1,14 @@
+.breadcrumbs {
+  display: flex;
+  font-size: .875em;
+  font-style: italic;
+  color: #f1579b;
+}
+
+.breadcrumbs__link {
+  color: inherit;
+}
+
+.breadcrumbs__item--separator:not(:last-child)::after {
+  content: "/";
+}

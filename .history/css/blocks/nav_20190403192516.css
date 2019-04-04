@@ -1,0 +1,98 @@
+.nav {
+  margin-right: 4.688rem;
+  padding-left: 2rem;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;;
+}
+
+.nav-list__item {
+  padding-left: 2rem;
+  margin-bottom: 1.65rem;
+}
+
+.nav-list__item:last-child {
+  margin: 0;
+}
+
+
+.nav-list__link {
+  position: relative;
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .3s;
+  color: #000;
+}
+
+.nav-list__item--active > .nav-list__link:hover {
+  color: #ec1e79;
+}
+
+.nav-list__item--active:nth-child(1) .nav-list__link::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/main-ic-original.png) center center no-repeat;
+}
+
+.nav-list__item--active:nth-child(2) .nav-list__link::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/feed-ic-original.png) center center no-repeat;
+}
+
+.nav-list__item--active:nth-child(2) .nav-list__link::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/wallet-ic-original.png) center center no-repeat;
+}
+
+.nav-list__item:hover .nav-list__link-main::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/main-ic.jpg) center center no-repeat;
+}
+
+.nav-list__item:hover .nav-list__link-feed::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/feed-ic.jpg) center center no-repeat;
+}
+
+.nav-list__item:hover .nav-list__link-wallet::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/wallet-ic.jpg) center center no-repeat;
+}

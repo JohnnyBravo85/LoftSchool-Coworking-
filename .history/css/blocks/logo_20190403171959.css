@@ -1,0 +1,8 @@
+.logo {
+  display: inline-block;
+  width: 100px;
+}
+
+.header__logo {
+  float: left;
+}

@@ -1,0 +1,10 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'GothamPro', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

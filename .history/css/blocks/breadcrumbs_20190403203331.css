@@ -1,0 +1,16 @@
+.breadcrumbs {
+  display: flex;
+  color: #f1579b;
+}
+
+.breadcrumbs__link {
+  color: inherit;
+}
+
+.breadcrumbs__link::after {
+  content: "/";
+}
+
+.breadcrumbs__link::after:not(.breadcrumbs) {
+  content: "/";
+}

@@ -1,0 +1,14 @@
+.header {
+  padding-top: .813rem;
+}
+
+.header--margin-reviews {
+  margin-bottom: 2.75rem;
+  padding-top: 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #27273e;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  overflow: hidden;
+  min-width: 1100px;
+  min-height: 100%;
+  display: flex;
+  flex-flow: column;
+  /* flex-direction: column; */
+}
+
+.wrapper__content {
+  flex: 1;
+  margin-bottom: 3.938rem;
+}

@@ -1,0 +1,16 @@
+.breadcrumbs {
+  display: flex;
+  color: #f1579b;
+}
+
+.breadcrumbs__link {
+  color: inherit;
+}
+
+.breadcrumbs__item--separator:not(:last-child) {
+  content: "/";
+}
+
+ + .breadcrumbs__link
+
+ .breadcrumbs:last-child + .breadcrumbs__link

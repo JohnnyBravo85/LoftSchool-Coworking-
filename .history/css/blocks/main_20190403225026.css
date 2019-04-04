@@ -1,0 +1,7 @@
+.main__container {
+  display: flex;
+}
+
+.main__container:first-child {
+  align-self: stretch;
+}

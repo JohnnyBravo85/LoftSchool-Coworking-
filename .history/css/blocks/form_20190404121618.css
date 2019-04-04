@@ -1,0 +1,9 @@
+.form {
+  height: 300px;
+  background: skyblue;
+  display: flex;
+}
+
+.form {
+  margin-bottom: 3.125rem;
+}

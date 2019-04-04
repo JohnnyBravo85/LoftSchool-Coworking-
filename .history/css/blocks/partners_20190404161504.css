@@ -1,0 +1,9 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners__title {
+  font-size: 3.063em;
+  font-weight: bold;
+}

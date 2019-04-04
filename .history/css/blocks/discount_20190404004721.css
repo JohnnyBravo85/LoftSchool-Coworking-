@@ -1,0 +1,14 @@
+.discount {
+  height: 174px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  line-height: 1.67;
+  background: url('../../img/ban/discount-banner.jpg');
+}
+
+.discount__text {
+  width: 611px;
+  height: 77px;
+}
