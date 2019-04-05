@@ -1,0 +1,27 @@
+.feedback {
+  margin-bottom: 3.125rem;
+  color: #221f1f;
+}
+
+.feedback__form {
+  width: 700px;
+  padding: 3.125rem 4.375rem;
+  background: #f5f5f5;
+}
+
+.feedback__title {
+  font-weight: bold;
+  font-size: 3.063em;
+  margin-bottom: 1.875rem;
+}
+
+.feedback__list {
+  font-size: 1.143em;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__item {
+  display: flex;
+  flex-direction: column;
+}
