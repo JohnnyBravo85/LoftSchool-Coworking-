@@ -152,40 +152,77 @@
       </section>
       <section class="feedback">
         <div class="container container--feedback">
-          <form action="" method="" class="feedback__form form" autocomplete="on">
-            <h2 class="form__title">Оставить отзыв</h2>
-            <div class="form__row">
-              <label class="form__name-data">
-                <h4 class="form__name-text">Ваше имя</h4>
-                <input type="text" class="form__name-input" placeholder="Андрей" name="name">
-              </label>
-              <label class="form__social">
-                <h4 class="form__vk-text">Ссылка на профиль VK</h4>
-                <input type="text" class="form__vk-input" placeholder="vk.com/example" name="vk">
-              </label>
+          <form action="" method="" class="feedback__form" autocomplete="on">
+            <h2 class="feedback__title">Оставить отзыв</h2>
+            <div class="feedback__user-data">
+              <div class="feedback__name">
+                <label for="feedback__name" class="feedback__name-label">Ваше имя</label>
+                <input type="text" id="feedback__name" class="feedback__name-input" placeholder="Андрей" name="name">
+              </div>
+              <div class="feedback__vk">
+                <label for="feedback__vk" class="feedback__vk-label">Ссылка на профиль VK</label>
+                <input type="text" id="feedback__vk" class="feedback__vk-input" placeholder="vk.com/example" name="vk">
+              </div>
+            <div class="feedback__form-comment">
+              <label for="feedback__comment" class="feedback__comment-label">Текст отзыва</label>
+              <textarea name="comment" id="feedback__comment" class="feedback__comment-input" cols="30"
+                rows="10">Мне понравилось</textarea>
             </div>
-            <label class="form__comment">
-              <h4 class="form__comment-text">Текст отзыва</h4>
-              <textarea class="form__comment-input" name="comment">Мне понравилось</textarea>
-            </label>
-            <div class="form__radio">
-              <label class="form__radio-block">
-                <h4 class="form__radio-text">Отображать фото в отзыве?</h4>
-                <div class="form__radio-flag">
-                  <label class="form__yes">
-                    <input type="radio" id="yes" class="form__radio-yes-input" name="photo" checked>
-                    <img src="./img/radio/radio-o.png" alt="" class="form-radio-fake">
-                    <label for="yes" class="form__radio-yes-label">Да</label>
-                  </label>
-                  <label class="form__no">
-                    <input type="radio" id="no" class="form__radio-no-input" name="photo">
-                    <img src="./img/radio/radio-o.png" alt="" class="form-radio-fake">
-                    <label for="no" class="form__radio-no-label">Нет</label>
-                  </label>
+            <div class="feedback__form-radio">
+              <div class="feedback__radio-block">
+                <p class="feedback__radio-text">Отображать фото в отзыве?</p>
+                <div class="feedback__radio">
+                  <div class="feedback__yes">
+                    <input type="radio" id="yes" class="feedback__radio-yes-input" name="photo">
+                    <label for="yes" class="feedback__radio-yes-label">Да</label>
+                  </div>
+                  <div class="feedback__no">
+                    <input type="radio" id="no" class="feedback__radio-no-input" name="photo">
+                    <label for="no" class="feedback__radio-no-label">Нет</label>
+                  </div>
                 </div>
-              </label>
-              <button type="submit" class="form__radio-button">Отправить</button>
+              </div>
+              <div class="feedback__form-button">
+                <button type="submit" class="feedback__radio-button">Отправить</button>
+              </div>
             </div>
+            <!-- <ul class="feedback__list">
+                <li class="feedback__item">
+                  <div class="feedback__form-name">
+                    <label for="feedback__name" class="feedback__name">Ваше имя</label>
+                    <input type="text" id="feedback__name" placeholder="Андрей" name="name">
+                  </div>
+                  <div class="feedback__form-vk">
+                    <label for="feedback__vk" class="feedback__vk">Ссылка на профиль VK</label>
+                    <input type="text" id="feedback__vk" placeholder="vk.com/example" name="vk">
+                  </div>
+                </li>
+                <li class="feedback__item">
+                  <div class="feedback__form-comment">
+                    <label for="feedback__comment" class="feedback__comment">Текст отзыва</label>
+                    <input type="text" id="feedback__comment" value="Мне понравилось" name="comment">
+                  </div>
+                </li>
+                <li class="feedback__item">
+                  <div class="feedback__form-radio">
+                    <p class="feedback__radio-text">Отображать фото в отзыве?</p>
+                    <div class="feedback__radio">
+                      <div class="feedback__yes">
+                        <input type="radio" id="yes" name="photo">
+                        <label for="yes" class="feedback__radio-yes">Да</label>
+                      </div>
+                      <div class="feedback__no">
+                        <input type="radio" id="no" name="photo">
+                        <label for="no" class="feedback__radio-no">Нет</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feedback__form-button">
+                    <button type="submit" class="feedback__radio-button">Отправить</button>
+                  </div>
+                </li>
+              </ul> -->
+
           </form>
         </div>
       </section>

@@ -81,17 +81,10 @@
   transform: translateX(-150%);
 }
 
-.form__yes:hover .form__radio-yes-label::before {
-  content: "";
-  position: absolute;
-  transform: translateX(-135%);
-  width: 20px;
-  height: 20px;
-  background: url('../../img/radio/radio-h.png');
-}
+.form__yes:hover 
 
 
-.form__radio-button {
+.feedback__radio-button {
   width: 140px;
   height: 45px;
   font-size: 0.857em;

@@ -73,25 +73,14 @@
 
 .form__yes, .form__no {
   position: relative;
-  padding-left: 25px;
 }
 
 .form-radio-fake {
   position: absolute;
-  transform: translateX(-150%);
+  transform: translateX(-120%);
 }
 
-.form__yes:hover .form__radio-yes-label::before {
-  content: "";
-  position: absolute;
-  transform: translateX(-135%);
-  width: 20px;
-  height: 20px;
-  background: url('../../img/radio/radio-h.png');
-}
-
-
-.form__radio-button {
+.feedback__radio-button {
   width: 140px;
   height: 45px;
   font-size: 0.857em;
