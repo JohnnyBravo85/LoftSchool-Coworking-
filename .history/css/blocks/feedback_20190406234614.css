@@ -76,7 +76,7 @@
   width: 20px;
   height: 20px;
   border: 1px solid #c9c9c9;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .form__radio-yes-div::before {
@@ -91,24 +91,8 @@
   border-radius: 100%;
 }
 
-.form__radio-no-div {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #c9c9c9;
-  border-radius: 50%;
-}
-
 .form__radio-yes-label::after {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 50%;
-  left: 50%;
-  transform: scale(-50%, -50%);
-  border: 1px solid #c9c9c9;
-  border-radius: 100%;
+  
 }
 
 /* .form__yes:hover .form__radio-yes-label::before {
