@@ -69,10 +69,6 @@
   align-items: center;
 }
 
-.form__yes {
-  margin-right: 1.188rem;
-}
-
 .form__radio-yes-input, .form__radio-no-input {
   visibility: hidden;
   width: 0;
@@ -132,11 +128,11 @@
   border-color: #ec1e79;
 }
 
-.form__radio-no-input:checked ~ div.form__radio-no-div {
+.form__radio-yes-input:checked ~ div.form__radio-no-div {
   border-color: #ec1e79;
 }
 
-.form__radio-no-input:checked ~ span.form__radio-no-span {
+.form__radio-yes-input:checked ~ span.form__radio-no-span {
   color: #ec1e79;
 }
 
