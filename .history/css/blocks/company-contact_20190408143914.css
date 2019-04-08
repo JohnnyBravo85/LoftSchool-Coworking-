@@ -1,13 +1,13 @@
 .company-contacts {
   color: #fff;
   text-align: right;
-  font-style: normal;
 }
 
 .company-contacts__tel {
   display: block;
   font-weight: bold;
   font-size: 1.313em;
+  font-style: normal;
   color: inherit;
 }
 

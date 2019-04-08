@@ -1,12 +1,12 @@
-.nav-breadcrumbs {
-  margin-bottom: 1.75rem;
-}
+.nav-breadcrumbs
+
 
 .breadcrumbs {
   display: flex;
   font-size: .875em;
   font-style: italic;
   opacity: 0.8;
+  margin-bottom: 1.75rem;
   color: #5a5858;
 }
 

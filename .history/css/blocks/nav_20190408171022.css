@@ -2,6 +2,10 @@
   margin-right: 4.688rem;
 }
 
+.nav {
+  /* margin-right: 4.688rem; */
+}
+
 .nav-list {
   display: flex;
   flex-direction: column;
