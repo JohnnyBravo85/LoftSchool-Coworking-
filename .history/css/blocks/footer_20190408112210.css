@@ -24,7 +24,6 @@
 .social {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .social__title {
@@ -36,6 +35,7 @@
 
 .social-icons {
   display: flex;
+  justify-content: center;
 }
 
 .social-icons__list {
