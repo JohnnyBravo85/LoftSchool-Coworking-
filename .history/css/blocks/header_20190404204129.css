@@ -1,0 +1,17 @@
+.header {
+  padding: .813rem 1.25rem;
+  background-color: #27273e;
+}
+
+.header--margin-reviews {
+  margin-bottom: 2.75rem;
+}
+
+.header--margin-prices {
+  margin-bottom: 2.75rem;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}

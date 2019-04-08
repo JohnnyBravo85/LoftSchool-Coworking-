@@ -1,0 +1,20 @@
+.breadcrumbs {
+  display: flex;
+  font-size: .875em;
+  font-style: italic;
+  opacity: 0.8;
+  margin-bottom: 
+  color: #5a5858;
+}
+
+.breadcrumbs__link {
+  color: inherit;
+}
+
+.breadcrumbs__link:hover {
+  color: #f1579b;
+}
+
+.breadcrumbs__item--separator:not(:first-child)::before {
+  content: "/";
+}

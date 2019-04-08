@@ -1,0 +1,14 @@
+.form {
+  font-family: 'Vast Shadow', cursive;
+  width: 700px;
+  height: 200px;;
+  display: flex;
+  font-size: 10em;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.form {
+  margin-bottom: 3.125rem;
+}

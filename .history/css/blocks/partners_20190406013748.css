@@ -1,0 +1,34 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners__title {
+  font-size: 3.063em;
+  font-weight: bold;
+  color: #221f1f;
+  margin-bottom: 3rem;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__items {
+  width: 160px;
+  height: 62px;
+  /* margin-right: 4.188rem;
+  margin-bottom: 3.938rem; */
+}
+
+/* .partners__items:nth-child(3n) {
+  margin-right: 0;
+} */
+
+.partners__img {
+  filter: gray; /* для IE6-9 */  
+  filter: grayscale(1); /* W3C */
+}

@@ -1,0 +1,10 @@
+.form {
+  height: 300px;
+  background: skyblue;
+  display: flex;
+  font-size: 10em;
+}
+
+.form {
+  margin-bottom: 3.125rem;
+}

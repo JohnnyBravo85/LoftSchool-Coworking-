@@ -1,0 +1,16 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners__title {
+  font-size: 3.063em;
+  font-weight: bold;
+  color: #221f1f;
+  margin-bottom: 3rem;
+}
+
+.partners__collage {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.feedback {
+  margin-bottom: 3.125rem;
+}
+
+.feedback__form {
+  width: 700px;
+  height: 500px;
+  padding: 0 4.375rem;
+  background: #f5f5f5;
+}
+
+.feedback__title {
+  font-weight: bold;
+  font-size: 3.063em;
+  color: #221f1f;
+}

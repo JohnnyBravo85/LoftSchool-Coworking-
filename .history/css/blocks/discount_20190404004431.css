@@ -1,0 +1,10 @@
+.discount {
+  height: 174px;
+  display: flex;
+  background: url('../../img/ban/discount-banner.jpg');
+}
+
+.discount__text {
+  width: 611px;
+  height: 77px;
+}

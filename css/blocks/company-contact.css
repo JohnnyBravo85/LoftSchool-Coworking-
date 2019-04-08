@@ -1,0 +1,27 @@
+.company-contacts {
+  color: #fff;
+  text-align: right;
+  font-style: normal;
+}
+
+.company-contacts__tel {
+  display: block;
+  font-weight: bold;
+  font-size: 1.313em;
+  color: inherit;
+}
+
+.company-contacts__schedule {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: .875em;
+  line-height: 2;
+  opacity: .7;
+  text-decoration: underline;
+}
+
+.company-contacts--hover .company-contacts__schedule {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #b12167;
+
+}

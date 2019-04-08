@@ -1,0 +1,12 @@
+.form {
+  font-family: 'Vast Shadow', cursive;
+  width: 700px;
+  height: 200px;
+  font-size: 5em;
+  background: #f5f5f5;
+  color: #fff;
+}
+
+.form {
+  margin-bottom: 3.125rem;
+}

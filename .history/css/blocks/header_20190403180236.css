@@ -1,0 +1,9 @@
+.header {
+  padding-top: .813rem;
+  background-color: #27273e;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
