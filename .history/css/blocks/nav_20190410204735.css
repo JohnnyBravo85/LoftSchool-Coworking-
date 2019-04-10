@@ -1,0 +1,150 @@
+.aside-nav {
+  margin-right: 4.688rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list__item {
+  padding-left: 2rem;
+  margin-bottom: 1.65rem;
+}
+
+.nav-list__item:last-child {
+  margin: 0;
+}
+
+
+.nav-list__link {
+  position: relative;
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .3s;
+  color: #ec1e79;
+}
+
+.nav-list--active-index .nav-list__item--active:first-child .nav-list__link {
+  color: #000;
+}
+
+.nav-list--active-index .nav-list__item--active:first-child .nav-list__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  width: 17px;
+  height: 15px;
+  background: url('../../img/nav/css_sprites.png') -10px -86px no-repeat;
+}
+
+
+.nav-list--active-reviews .nav-list__item--active:nth-child(2) .nav-list__link {
+  color: #000;
+}
+
+.nav-list--active-reviews .nav-list__item--active:nth-child(2) .nav-list__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  width: 17px;
+  height: 15px;
+  background: url('../../img/nav/css_sprites.png') center center no-repeat;
+}
+
+.nav-list--active-prices .nav-list__item--active:last-child .nav-list__link {
+  color: #000;
+}
+
+.nav-list--active-prices .nav-list__item--active:last-child .nav-list__link::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/wallet-ic-original.jpg) center center no-repeat;
+}
+
+
+
+
+
+.nav-list__item--active > .nav-list__link:hover {
+  color: #000;
+}
+
+.nav-list__link-main::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/main-ic.jpg) center center no-repeat;
+}
+
+.nav-list__link-feed::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/feed-ic.jpg) center center no-repeat;
+}
+
+.nav-list__link-wallet::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/wallet-ic.jpg) center center no-repeat;
+}
+
+.nav-list__item--active:hover .nav-list__link-main::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/main-ic-original.jpg) center center no-repeat;
+}
+
+.nav-list__item--active:hover .nav-list__link-feed::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/feed-ic-original.jpg) center center no-repeat;
+}
+
+.nav-list__item--active:hover .nav-list__link-wallet::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/wallet-ic-original.jpg) center center no-repeat;
+}

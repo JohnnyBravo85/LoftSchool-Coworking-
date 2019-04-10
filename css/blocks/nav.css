@@ -24,7 +24,6 @@
   letter-spacing: 1.2px;
   font-weight: bold;
   text-transform: uppercase;
-  transition: .3s;
   color: #ec1e79;
 }
 
@@ -34,13 +33,14 @@
 
 .nav-list--active-index .nav-list__item--active:first-child .nav-list__link::before {
   content: "";
-  position: absolute;
-  top: -4px;
-  left: -31px;
+  width: 17px;
+  height: 15px;
   display: block;
-  width: 20px;
-  height: 18px;
-  background: url(../../img/nav/main-ic-original.jpg) center center no-repeat;
+  position: absolute;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -10px -86px no-repeat;
 }
 
 
@@ -50,13 +50,14 @@
 
 .nav-list--active-reviews .nav-list__item--active:nth-child(2) .nav-list__link::before {
   content: "";
-  position: absolute;
-  top: -4px;
-  left: -31px;
-  display: block;
   width: 20px;
   height: 18px;
-  background: url(../../img/nav/feed-ic-original.jpg) center center no-repeat;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -10px -10px no-repeat;
 }
 
 .nav-list--active-prices .nav-list__item--active:last-child .nav-list__link {
@@ -65,65 +66,70 @@
 
 .nav-list--active-prices .nav-list__item--active:last-child .nav-list__link::before {
   content: "";
+  width: 19px;
+  height: 16px;
   position: absolute;
-  top: -4px;
-  left: -31px;
   display: block;
-  width: 20px;
-  height: 18px;
-  background: url(../../img/nav/wallet-ic-original.jpg) center center no-repeat;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -50px -48px no-repeat;
 }
 
+.nav-list__link, .nav-list__link-main::before, .nav-list__link-main::after  {
+  transition-duration: 5s;
+}
 
-
-
-
-.nav-list__item--active > .nav-list__link:hover {
+.nav-list__item--active:hover > .nav-list__link {
   color: #000;
 }
 
 .nav-list__link-main::before {
   content: "";
+  width: 17px;
+  height: 15px;
   position: absolute;
-  top: -4px;
-  left: -31px;
   display: block;
-  width: 20px;
-  height: 18px;
-  background: url(../../img/nav/main-ic.jpg) center center no-repeat;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -47px -86px no-repeat;
 }
 
 .nav-list__link-feed::before {
   content: "";
-  position: absolute;
-  top: -4px;
-  left: -31px;
-  display: block;
   width: 20px;
   height: 18px;
-  background: url(../../img/nav/feed-ic.jpg) center center no-repeat;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -50px -10px no-repeat;
 }
 
 .nav-list__link-wallet::before {
   content: "";
+  width: 19px;
+  height: 16px;
   position: absolute;
-  top: -4px;
-  left: -31px;
   display: block;
-  width: 20px;
-  height: 18px;
-  background: url(../../img/nav/wallet-ic.jpg) center center no-repeat;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -90px -10px no-repeat;
 }
 
 .nav-list__item--active:hover .nav-list__link-main::after {
   content: "";
+  width: 17px;
+  height: 15px;
   position: absolute;
-  top: -4px;
-  left: -31px;
   display: block;
-  width: 20px;
-  height: 18px;
-  background: url(../../img/nav/main-ic-original.jpg) center center no-repeat;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -10px -86px no-repeat;
 }
 
 .nav-list__item--active:hover .nav-list__link-feed::after {
