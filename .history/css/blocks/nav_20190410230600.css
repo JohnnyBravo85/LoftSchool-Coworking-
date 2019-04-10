@@ -79,7 +79,7 @@
 
 .nav-list__item--active:hover > .nav-list__link {
   color: #000;
-  transition: .3s;
+  transition: 5s;
 }
 
 
@@ -128,53 +128,43 @@
   top: 50%;
   left: -30%;
   transform: translate(-50%, -50%);
-  transition: opacity .3s ease-in-out;
+  transition: opacity 5s ease-in-out;
   opacity: 0;
   background: url('../../img/nav/css_sprites.png') -10px -86px no-repeat;
 }
 
 .nav-list__item--active:hover .nav-list__link-main::after {
   content: "";
-  opacity: 1;
-  transition: .3s;
-}
-
-.nav-list__link-feed::after {
-  content: "";
-  width: 20px;
-  height: 18px;
+  width: 17px;
+  height: 15px;
   position: absolute;
   display: block;
   top: 50%;
   left: -30%;
   transform: translate(-50%, -50%);
-  transition: opacity .3s ease-in-out;
-  opacity: 0;
-  background: url('../../img/nav/css_sprites.png') -10px -10px no-repeat;
+  opacity: 1;
+  transition: 5s;
+  background: url('../../img/nav/css_sprites.png') -10px -86px no-repeat;
 }
 
 .nav-list__item--active:hover .nav-list__link-feed::after {
   content: "";
-  opacity: 1;
-  transition: .3s;
-}
-
-.nav-list__link-wallet::after {
-  content: "";
-  width: 19px;
-  height: 16px;
   position: absolute;
+  top: -4px;
+  left: -31px;
   display: block;
-  top: 50%;
-  left: -30%;
-  transform: translate(-50%, -50%);
-  transition: opacity .3s ease-in-out;
-  opacity: 0;
-  background: url('../../img/nav/css_sprites.png') -50px -48px no-repeat;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/feed-ic-original.jpg) center center no-repeat;
 }
 
 .nav-list__item--active:hover .nav-list__link-wallet::after {
   content: "";
-  opacity: 1;
-  transition: .3s;
+  position: absolute;
+  top: -4px;
+  left: -31px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url(../../img/nav/wallet-ic-original.jpg) center center no-repeat;
 }

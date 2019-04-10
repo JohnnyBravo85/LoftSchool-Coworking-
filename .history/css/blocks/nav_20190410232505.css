@@ -159,7 +159,7 @@
   transition: .3s;
 }
 
-.nav-list__link-wallet::after {
+.nav-list__item--active:hover .nav-list__link-wallet::after {
   content: "";
   width: 19px;
   height: 16px;
@@ -168,13 +168,5 @@
   top: 50%;
   left: -30%;
   transform: translate(-50%, -50%);
-  transition: opacity .3s ease-in-out;
-  opacity: 0;
-  background: url('../../img/nav/css_sprites.png') -50px -48px no-repeat;
-}
-
-.nav-list__item--active:hover .nav-list__link-wallet::after {
-  content: "";
-  opacity: 1;
-  transition: .3s;
+  background: url('../../img/nav/css_sprites.png') -90px -46px no-repeat;
 }
