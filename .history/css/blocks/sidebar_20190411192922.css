@@ -1,0 +1,6 @@
+.sidebar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-right: 1.275rem;
+}

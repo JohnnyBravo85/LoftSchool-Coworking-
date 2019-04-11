@@ -1,0 +1,22 @@
+.discount {
+  padding: 2rem .625rem;
+  min-width: 274px;
+  font-size: 1.125em;
+  line-height: 1.67;
+  color: #fff;
+  background: url('../../img/ban/discount-banner.jpg');
+}
+
+.discount__text {
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.discount__percent {
+  color: #ec1e79;
+}
+
+.discount {
+ margin-bottom: 1.875rem;
+}
