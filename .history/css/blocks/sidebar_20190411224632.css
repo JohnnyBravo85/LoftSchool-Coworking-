@@ -1,0 +1,10 @@
+.sidebar {
+  display: flex;
+  flex-flow: column;
+  max-width: 25%;
+  margin-right: 1.275rem;
+}
+
+.sidebar__prices {
+  min-width: 272px;
+}

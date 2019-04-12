@@ -1,0 +1,91 @@
+.company-contacts {
+  color: #fff;
+  text-align: right;
+  font-style: normal;
+}
+
+.company-contacts__tel {
+  display: block;
+  font-weight: bold;
+  font-size: 1.313em;
+  color: inherit;
+}
+
+.company-contacts__schedule {
+  display: inline-flex;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: .875em;
+  line-height: 2;
+  opacity: .7;
+  text-decoration: underline;
+  color: #b12167;
+}
+
+.company-contacts--active:hover .company-contacts__schedule {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #769dcd
+}
+
+.company-contacts--active:hover .dropdawn__menu {
+  display: inline-flex;
+}
+
+.company-contacts--active:hover .dropdawn__menu::after {
+  display: inline-block;
+}
+
+.dropdawn {
+  position: relative;
+}
+
+.dropdawn__menu {
+  opacity: 0;
+  transition: .3s ease-in-out;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 18%;
+  margin-top: 1rem;
+  padding: 1.125rem .688rem;
+  flex-flow: column;
+  font-size: 0.875em;
+  color: #221f1f;
+  font-weight: bold;
+  text-align: left;
+  border-radius: 0.188rem;
+  background: #fff;
+  box-shadow: 0 0 5px #000;
+}
+
+.dropdawn__menu .dropdawn__item:first-child {
+  color: #ec1e79;
+  margin-bottom: .5rem;
+}
+
+.dropdawn__menu::before {
+  content: "";
+  display: none;
+  position: absolute;
+  top: -1.55rem;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 1.55rem;
+}
+
+.dropdawn__menu::after {
+  content: "";
+  display: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 22px solid;
+  border-bottom-color: white;
+  border-top-width: 0;
+  border-left-width: 15px;
+  border-right-width: 15px;
+  top: -28%;
+  left: 81%;
+  right: 0;
+}

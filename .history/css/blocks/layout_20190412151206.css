@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background: url('../../img/layout/layout.jpg') no-repeat;
+  background-size: cover; */
+}
+
+.wrapper::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: .15;
+  z-index: -9;
+  background: #ec1e79;
+}
+
+.wrapper .intro-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -10;
+}
