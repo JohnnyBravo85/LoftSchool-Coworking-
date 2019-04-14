@@ -69,7 +69,7 @@
   display: none;
   position: absolute;
   top: -21%;
-  right: -99999px;
+  right: -9999px;
   border: 22px solid;
   border-bottom-color: #fff;
   border-left-color: transparent;
@@ -96,5 +96,4 @@
 .company-contacts__schedule:last-child:hover .dropdawn .dropdawn__menu::after {
   display: inline-block;
   opacity: 1;
-  right: 0;
 }

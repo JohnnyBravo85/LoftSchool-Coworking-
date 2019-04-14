@@ -93,7 +93,7 @@
   left: -44%;
 }
 
-.company-contacts__schedule:last-child:hover .dropdawn .dropdawn__menu::after {
+.company-contacts__schedule:hover ~ .dropdawn .dropdawn__menu::after {
   display: inline-block;
   opacity: 1;
   right: 0;

@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 1.875rem 2.813rem;
   border: solid 1px #e8e9ed;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .tariff {
-  margin-right: 1.25rem;
+  
 }
 
 .tariff__title {

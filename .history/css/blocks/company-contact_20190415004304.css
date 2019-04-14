@@ -66,10 +66,11 @@
   content: "";
   width: 0;
   height: 0;
-  display: none;
+  /* display: none; */
   position: absolute;
   top: -21%;
-  right: -99999px;
+  /* right: -99999px; */
+  right: 0;
   border: 22px solid;
   border-bottom-color: #fff;
   border-left-color: transparent;
@@ -93,8 +94,7 @@
   left: -44%;
 }
 
-.company-contacts__schedule:last-child:hover .dropdawn .dropdawn__menu::after {
+.company-contacts__schedule:hover ~ .dropdawn .dropdawn__menu::after {
   display: inline-block;
   opacity: 1;
-  right: 0;
 }
