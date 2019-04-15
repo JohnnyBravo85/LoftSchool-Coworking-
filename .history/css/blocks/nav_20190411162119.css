@@ -1,0 +1,214 @@
+.aside-nav {
+  padding-top: 1.25rem;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list__item {
+  padding-left: 2rem;
+  margin-right: 5.625rem;
+}
+
+.nav-list__item:last-child {
+  margin: 0;
+}
+
+.nav-list__link {
+  position: relative;
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color .3s ease-in-out;
+  color: #ec1e79;
+}
+
+.nav-list__item--index-style .nav-list__link {
+  color: #fff;
+}
+
+.nav-list__index .nav-list__item--active:first-child .nav-list__link {
+  color: #ec1e79;
+}
+
+.nav-list__index .nav-list__item--active:first-child .nav-list__link::before {
+  content: "";
+  width: 17px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -47px -86px no-repeat;
+}
+
+.nav-list--active-reviews .nav-list__item--active:nth-child(2) .nav-list__link {
+  color: #000;
+}
+
+.nav-list--active-reviews .nav-list__item--active:nth-child(2) .nav-list__link::before {
+  content: "";
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -10px -10px no-repeat;
+}
+
+.nav-list--active-prices .nav-list__item--active:last-child .nav-list__link {
+  color: #000;
+}
+
+.nav-list--active-prices .nav-list__item--active:last-child .nav-list__link::before {
+  content: "";
+  width: 19px;
+  height: 16px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -50px -48px no-repeat;
+}
+
+.nav-list__item--active:hover .nav-list__link {
+  color: #000;
+  transition: .3s;
+}
+
+.nav-list__item--active-hov:hover .nav-list__link {
+  color: #ec1e79;
+}
+
+
+.nav-list__link-main::before {
+  content: "";
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -47px -86px no-repeat;
+}
+
+.nav-list__link-feed::before {
+  content: "";
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -50px -10px no-repeat;
+}
+
+.nav-list__link-wallet::before {
+  content: "";
+  width: 19px;
+  height: 16px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  background: url('../../img/nav/css_sprites.png') -90px -10px no-repeat;
+}
+
+.nav-list__link-main::after {
+  content: "";
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+  background: url('../../img/nav/css_sprites.png') -10px -86px no-repeat;
+}
+
+.nav-list__item--active:hover .nav-list__link-main::after {
+  content: "";
+  opacity: 1;
+  transition: .3s;
+}
+
+.nav-list__link-feed::after {
+  content: "";
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+  background: url('../../img/nav/css_sprites.png') -10px -10px no-repeat;
+}
+
+.nav-list__item--active:hover .nav-list__link-feed::after {
+  content: "";
+  opacity: 1;
+  transition: .3s;
+}
+
+.nav-list__link-wallet::after {
+  content: "";
+  width: 19px;
+  height: 16px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+  background: url('../../img/nav/css_sprites.png') -50px -48px no-repeat;
+}
+
+.nav-list__item--active:hover .nav-list__link-wallet::after {
+  content: "";
+  opacity: 1;
+  transition: .3s;
+}
+
+.nav-list__link-feed--hov::before {
+  content: "";
+  background: url('../../img/nav/css_sprites.png') -10px -48px no-repeat;
+}
+
+.nav-list__link-wallet--hov::before {
+  content: "";
+  background: url('../../img/nav/css_sprites.png') -90px -46px no-repeat;
+}
+
+.nav-list__link-feed--hov::after {
+  content: "";
+  background: url('../../img/nav/css_sprites.png') -50px -10px no-repeat;
+}
+
+.nav-list__link-wallet::after {
+  content: "";
+  width: 19px;
+  height: 16px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -30%;
+  transform: translate(-50%, -50%);
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+  background: url('../../img/nav/css_sprites.png') -90px -10px no-repeat;
+}

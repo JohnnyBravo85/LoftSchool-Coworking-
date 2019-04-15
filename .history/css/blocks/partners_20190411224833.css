@@ -1,0 +1,28 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 273px;
+}
+
+.partners__title {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #221f1f;
+  margin-bottom: 3rem;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partners__items {
+  margin-bottom: 3.938rem;
+}
+
+.partners__img {
+  filter: gray; /* для IE6-9 */  
+  filter: grayscale(1); /* W3C */
+}

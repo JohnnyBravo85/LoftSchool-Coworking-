@@ -1,0 +1,74 @@
+.company-contacts {
+  color: #fff;
+  text-align: right;
+  font-style: normal;
+}
+
+.company-contacts__tel {
+  display: block;
+  font-weight: bold;
+  font-size: 1.313em;
+  color: inherit;
+}
+
+.company-contacts__schedule {
+  display: inline-flex;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: .875em;
+  line-height: 2;
+  opacity: .7;
+  text-decoration: underline;
+}
+
+.company-contacts--hover .company-contacts__schedule {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #b12167;
+}
+
+.dropdawn {
+  position: relative;
+}
+
+.dropdawn__menu {
+  position: absolute;
+  top: 100%;
+  left: 18%;
+  margin-top: 1rem;
+  padding: 1.125rem .688rem;
+  display: inline-flex;
+  flex-flow: column;
+  font-size: 0.875em;
+  color: #221f1f;
+  font-weight: bold;
+  text-align: left;
+  border-radius: 0.188rem;
+  background: #fff;
+}
+
+.dropdawn__menu .dropdawn__item:first-child {
+  color: #ec1e79;
+  margin-bottom: .5rem;
+}
+
+.dropdawn__menu::before {
+  content: "";
+  position: absolute;
+  top: -1.55rem;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 1.55rem;
+  border: 1px solid red;
+}
+
+.dropdawn__menu::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 30px solid white;
+  left: -300px;;
+  right: 0;
+}
